@@ -1,0 +1,32 @@
+{
+  "name": "node-sweep",
+  "version": "1.0.0",
+  "description": "Find old node_modules folders, see how much space they use, and delete the ones you pick. Zero dependencies.",
+  "main": "src/index.js",
+  "bin": {
+    "node-sweep": "bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "node_modules",
+    "cleanup",
+    "disk-space",
+    "clean",
+    "delete",
+    "cli"
+  ],
+  "author": "Aritra Sharkhel",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "node-sweep": "^1.0.0"
+  }
+}
