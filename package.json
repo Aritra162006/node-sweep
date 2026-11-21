@@ -1,6 +1,6 @@
 {
   "name": "node-sweep",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Find old node_modules folders, see how much space they use, and delete the ones you pick. Zero dependencies.",
   "main": "src/index.js",
   "bin": {
